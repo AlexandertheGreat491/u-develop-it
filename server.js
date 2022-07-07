@@ -24,9 +24,9 @@ const db = mysql.createConnection(
     console.log('Connected to the election database.')
 );
 
-db.query(`SELECT * FROM candidates`, (err, rows) => {
-    console.log(rows);
-});
+//db.query(`SELECT * FROM candidates`, (err, rows) => {
+    //console.log(rows);
+//});
 
 //GET a single candidate
 //db.query(`SELECT * FROM candidates WHERE id = 1`, (err, row) => {
