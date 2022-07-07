@@ -38,6 +38,7 @@ app.get('/api/candidates', (req, res) => {
         });
     });
 });
+//route successful
 
 //db.query(`SELECT * FROM candidates`, (err, rows) => {
 //console.log(rows);
