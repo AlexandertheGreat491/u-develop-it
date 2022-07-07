@@ -6,13 +6,17 @@ const app = express();
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-
+//route confirms connection to the server
 app.get('/', (req, res) => {
     res.json({
         message: 'Hello World'
     });
 });
 
+//Default response for any other request (Not Found)
+app.use((req, res) => {
+    res.status(404).end();
+});
 
 //listener
 app.listen(PORT, () => {
