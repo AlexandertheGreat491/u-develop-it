@@ -12,6 +12,8 @@ The project can be installed on your local computer through cloning the [Public 
 
 If a person uses the installation instructions correctly, a database and table similar to the screenshot below will be created.
 
+![Finished-table-screenshot](https://user-images.githubusercontent.com/64184203/178148644-54142bf4-324e-459e-a53a-766d361b2617.jpg)
+
 
 ## Credits
 
